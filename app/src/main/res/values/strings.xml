@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Anket</string>
+    <string name="description">Sovereignty unconditionally belongs to the people!!!\nM.Kemal Atatürk</string>
+
+    <string name="q1_text">1.In which city was Ataturk born?</string>
+    <string name="q1_1">Izmir</string>
+    <string name="q1_2">Thessaloniki</string>
+    <string name="q1_3">Constantinople</string>
+    <string name="q1_4">Adrianople</string>
+
+    <string name="q2_text">2.When did Ataturk graduate from the military academy in Constantinople?</string>
+    <string name="q2_1">1907</string>
+    <string name="q2_2">1904</string>
+    <string name="q2_3">1905</string>
+    <string name="q2_4">1906</string>
+
+    <string name="q3_text">3.Which division did Ataturk command at Gallipoli?</string>
+    <string name="q3_1">9th Division</string>
+    <string name="q3_2">19th Division</string>
+    <string name="q3_3">2nd Division</string>
+    <string name="q3_4">52nd Division</string>
+
+    <string name="q4_text">4.Which position was he offered in early 1919?</string>
+    <string name="q4_1">Commander-in-Chief of the Ottoman Army</string>
+    <string name="q4_2">President of Turkey</string>
+    <string name="q4_3">Minister of War</string>
+    <string name="q4_4">Inspector-General of the Ottoman 9th Army</string>
+
+    <string name="q5_text">5.Where was the second Turkish National Congress held?</string>
+    <string name="q5_1">Samsun</string>
+    <string name="q5_2">Erzurum</string>
+    <string name="q5_3">Sivas</string>
+    <string name="q5_4">Ankara</string>
+
+    <string name="q6_text">6.When was Ataturk elected President of Turkey?</string>
+    <string name="q6_1">28 October 1923</string>
+    <string name="q6_2">29 October 1923</string>
+    <string name="q6_3">29 October 1924</string>
+    <string name="q6_4">28 October 1924</string>
+
+    <string name="q7_text">7.Which treaty did the Ottoman government sign on 10 August 1920?</string>
+    <string name="q7_1">Sevres</string>
+    <string name="q7_2">Montreux</string>
+    <string name="q7_3">Lausanne</string>
+    <string name="q7_4">Versailles</string>
+
+    <string name="q8_text">8.When did Ataturk abolish the sultanate?</string>
+    <string name="q8_1">1924</string>
+    <string name="q8_2">1923</string>
+    <string name="q8_3">1922</string>
+    <string name="q8_4">1921</string>
+
+    <string name="q9_text">9.What is the meaning of his adopted family name?</string>
+    <string name="q9_1">Generalissimo</string>
+    <string name="q9_2">National savior</string>
+    <string name="q9_3">Brother of the Turks</string>
+    <string name="q9_4">Father of the Turks</string>
+
+    <string name="q10_text">10.What was the name of the Islamic law abolished by Ataturk?</string>
+    <string name="q10_1">Sharjah</string>
+    <string name="q10_2">Fatima</string>
+    <string name="q10_3">Fatwa</string>
+    <string name="q10_4">Sheriat</string>
+
+    <string name="q11_text">11.Where is the capital of Turkey?</string>
+    <string name="q11_hint">Answer here...</string>
+    <string name="q11_answer">Ankara</string>
+
+    <string name="spoken_languages">12.Which languages aren\'t spoken in TURKEY?</string>
+    <string name="turkish">Turkish</string>
+    <string name="kurdish">Kurdish</string>
+    <string name="laz">Laz</string>
+    <string name="hebrew">Hebrew</string>
+
+    <string name="title_activity_result">Anket Sonuçları</string>
+
+    <string name="resultBtn">See Results</string>
+    <string name="acceptTxt">Please accept for activate button!!!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="resetAll">Reset All</string>
+
+</resources>

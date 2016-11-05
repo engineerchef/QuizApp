@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tolgaduran.android.anket.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="@string/description" />
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+
+            style="@style/CustomTextView"
+            android:text="@string/q1_text" />
+
+        <RadioGroup
+            android:id="@+id/q1_main"
+            style="@style/CustomRadioGroupVertical">
+
+            <RadioButton
+                android:id="@+id/q1_1"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q1_1" />
+
+            <RadioButton
+                android:id="@+id/q1_2"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q1_2" />
+
+            <RadioButton
+                android:id="@+id/q1_3"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q1_3" />
+
+            <RadioButton
+                android:id="@+id/q1_4"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q1_4" />
+        </RadioGroup>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q2_text" />
+
+        <RadioGroup
+            android:id="@+id/q2_main"
+            style="@style/CustomRadioGroupHorizontal">
+
+            <RadioButton
+                android:id="@+id/q2_1"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q2_1" />
+
+            <RadioButton
+                android:id="@+id/q2_2"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q2_2" />
+
+            <RadioButton
+                android:id="@+id/q2_3"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q2_3" />
+
+            <RadioButton
+                android:id="@+id/q2_4"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q2_4" />
+        </RadioGroup>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q3_text" />
+
+        <RadioGroup
+            android:id="@+id/q3_main"
+            style="@style/CustomRadioGroupHorizontal">
+
+            <RadioButton
+                android:id="@+id/q3_1"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q3_1" />
+
+            <RadioButton
+                android:id="@+id/q3_2"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q3_2" />
+
+            <RadioButton
+                android:id="@+id/q3_3"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q3_3" />
+
+            <RadioButton
+                android:id="@+id/q3_4"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q3_4" />
+        </RadioGroup>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q4_text" />
+
+        <RadioGroup
+            android:id="@+id/q4_main"
+            style="@style/CustomRadioGroupVertical">
+
+            <RadioButton
+                android:id="@+id/q4_1"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q4_1" />
+
+            <RadioButton
+                android:id="@+id/q4_2"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q4_2" />
+
+            <RadioButton
+                android:id="@+id/q4_3"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q4_3" />
+
+            <RadioButton
+                android:id="@+id/q4_4"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q4_4" />
+        </RadioGroup>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q5_text" />
+
+        <RadioGroup
+            android:id="@+id/q5_main"
+            style="@style/CustomRadioGroupHorizontal">
+
+            <RadioButton
+                android:id="@+id/q5_1"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q5_1" />
+
+            <RadioButton
+                android:id="@+id/q5_2"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q5_2" />
+
+            <RadioButton
+                android:id="@+id/q5_3"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q5_3" />
+
+            <RadioButton
+                android:id="@+id/q5_4"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q5_4" />
+        </RadioGroup>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q6_text" />
+
+        <RadioGroup
+            android:id="@+id/q6_main"
+            style="@style/CustomRadioGroupVertical">
+
+            <RadioButton
+                android:id="@+id/q6_1"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q6_1" />
+
+            <RadioButton
+                android:id="@+id/q6_2"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q6_2" />
+
+            <RadioButton
+                android:id="@+id/q6_3"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q6_3" />
+
+            <RadioButton
+                android:id="@+id/q6_4"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q6_4" />
+        </RadioGroup>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q7_text" />
+
+        <RadioGroup
+            android:id="@+id/q7_main"
+            style="@style/CustomRadioGroupVertical">
+
+            <RadioButton
+                android:id="@+id/q7_1"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q7_1" />
+
+            <RadioButton
+                android:id="@+id/q7_2"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q7_2" />
+
+            <RadioButton
+                android:id="@+id/q7_3"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q7_3" />
+
+            <RadioButton
+                android:id="@+id/q7_4"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q7_4" />
+        </RadioGroup>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q8_text" />
+
+        <RadioGroup
+            android:id="@+id/q8_main"
+            style="@style/CustomRadioGroupHorizontal">
+
+            <RadioButton
+                android:id="@+id/q8_1"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q8_1" />
+
+            <RadioButton
+                android:id="@+id/q8_2"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q8_2" />
+
+            <RadioButton
+                android:id="@+id/q8_3"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q8_3" />
+
+            <RadioButton
+                android:id="@+id/q8_4"
+                style="@style/CustomRadioButton2"
+                android:text="@string/q8_4" />
+        </RadioGroup>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q9_text" />
+
+        <RadioGroup
+            android:id="@+id/q9_main"
+            style="@style/CustomRadioGroupVertical">
+
+            <RadioButton
+                android:id="@+id/q9_1"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q9_1" />
+
+            <RadioButton
+                android:id="@+id/q9_2"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q9_2" />
+
+            <RadioButton
+                android:id="@+id/q9_3"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q9_3" />
+
+            <RadioButton
+                android:id="@+id/q9_4"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q9_4" />
+        </RadioGroup>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q10_text" />
+
+        <RadioGroup
+            android:id="@+id/q10_main"
+            style="@style/CustomRadioGroupVertical">
+
+            <RadioButton
+                android:id="@+id/q10_1"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q10_1" />
+
+            <RadioButton
+                android:id="@+id/q10_2"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q10_2" />
+
+            <RadioButton
+                android:id="@+id/q10_3"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q10_3" />
+
+            <RadioButton
+                android:id="@+id/q10_4"
+                style="@style/CustomRadioButton1"
+                android:text="@string/q10_4" />
+        </RadioGroup>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/q11_text" />
+        <EditText
+            android:id="@+id/q11_answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/q11_hint"
+            android:maxLines="1"/>
+
+        <View style="@style/CustomDivider" />
+
+        <TextView
+            style="@style/CustomTextView"
+            android:text="@string/spoken_languages" />
+
+        <LinearLayout
+            android:id="@+id/languages"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/turkish"
+                style="@style/CustomRadioButton1"
+                android:text="@string/turkish" />
+
+            <CheckBox
+                android:id="@+id/kurdish"
+                style="@style/CustomRadioButton1"
+                android:text="@string/kurdish" />
+
+            <CheckBox
+                android:id="@+id/laz"
+                style="@style/CustomRadioButton1"
+                android:text="@string/laz" />
+
+            <CheckBox
+                android:id="@+id/hebrew"
+                style="@style/CustomRadioButton1"
+                android:text="@string/hebrew" />
+        </LinearLayout>
+
+        <View style="@style/CustomDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:text="@string/acceptTxt"/>
+
+            <CheckBox
+                android:id="@+id/acceptAnswer"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <View style="@style/CustomDivider" />
+
+        <Button
+            android:id="@+id/resultBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToResults"
+            android:text="@string/resultBtn"/>
+    </LinearLayout>
+
+</ScrollView>
